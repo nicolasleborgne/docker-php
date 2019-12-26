@@ -5,6 +5,8 @@
  - php 7.3
  - X-debug
  - composer
+ - mkdocs
+ - bash
 
 ## Usage
 
