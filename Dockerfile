@@ -1,6 +1,6 @@
 FROM php:7.3.8-fpm-alpine
 
-RUN apk update && apk add autoconf gcc g++ make bash
+RUN apk update && apk add autoconf gcc g++ make bash zip
 
 RUN pecl install xdebug && docker-php-ext-enable xdebug
 

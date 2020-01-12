@@ -7,6 +7,7 @@
  - composer
  - mkdocs
  - bash
+ - zip
 
 ## Usage
 
