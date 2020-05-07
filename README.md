@@ -1,8 +1,8 @@
-# PHP 7.3 docker image
+# PHP 7.4 docker image
 
 ## What's included ?
 
- - php 7.3
+ - php 7.4
  - X-debug
  - composer
  - mkdocs
@@ -13,16 +13,16 @@
 
 Pull image
 ```bash
-docker pull nicolbrgn/php:7.3.8
+docker pull nicolbrgn/php:7.4
 ```
 
 Build image
 ```bash
-docker build -f nicolbrgn/php:7.3.8 .
+docker build -f nicolbrgn/php:7.4 .
 ```
 
 Push image
 ```bash
 docker login
-docker push nicolbrgn/php:7.3.8
+docker push nicolbrgn/php:7.4
 ```
